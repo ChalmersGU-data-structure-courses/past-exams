@@ -2,7 +2,7 @@
 
 The following exams were given as open-book online exams.
 Their questions thus differ from a typical in-person exam and are a bit harder.
-These exam were also personalized.
+They were also personalized.
 The given files are representative instances.
 
 * [2020-06/](2020-06/exam.pdf) ([solution](2020-06/solution.pdf)) (Swedish)
