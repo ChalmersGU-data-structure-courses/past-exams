@@ -7,7 +7,7 @@ The given files are representative instances.
 
 * [2021-03](2021-03/exam.pdf) ([solutions](2021-03/solution.pdf))
 * [2021-06](../LET375/2021-06/exam.pdf) ([solutions](../LET375/2021-06/solution.pdf))
-* [2021-08](../DAT038_TDA417/exam.pdf) ([solutions](../DAT038_TDA417/2021-08/solution.pdf))
+* [2021-08](../DAT038_TDA417/2021-08/exam.pdf) ([solutions](../DAT038_TDA417/2021-08/solution.pdf))
 
 ## Exams from similar courses
 
