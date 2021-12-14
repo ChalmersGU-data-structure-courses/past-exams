@@ -3,7 +3,7 @@ The questions thus differ from a typical in-person exam.
 
 ## Personalized exam
 
-The exam was also personalized based on the personnummer of the student.
+The exam was personalized based on the personnummer of the student.
 Here are example instances for personnummer 000000000000.
 
 ### Question 2
