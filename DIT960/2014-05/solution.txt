@@ -1,0 +1,158 @@
+Question 1
+----------
+
+We do O(n) insertion and deletion operations, each of which is
+O(height of tree). If we use an ordinary binary search tree the
+maximum possible height is O(n), while for an AVL tree it is O(log n).
+So:
+
+a) O(n^2)
+b) O(n log n)
+
+Question 2
+----------
+
+Adapting the example code, to store both keys and values in the nodes:
+
+data BSTMap k v = Empty | Node k v (BSTMap k v) (BSTMap k v)
+
+lookup :: Ord k => k -> BSTMap k v -> Maybe v
+lookup x Empty = Nothing
+lookup x (Node a b left right)
+  | x < a = lookup x left
+  | x > a = lookup x right
+  | otherwise = Just b
+
+update :: Ord k => k -> v -> BSTMap k v -> BSTMap k v
+update x y Empty = Node x y Empty Empty
+update x y (Node a b left right)
+  | x < a = Node a b (update x y left) right
+  | x > a = Node a b left (update x y right)
+  | otherwise = Node x y left right
+
+Question 3
+----------
+
+For G:
+
+Represent the set as e.g. an AVL tree. Implement the operations as follows:
+  new: create an empty AVL tree
+  insert: use AVL insertion
+  member: use binary search tree lookup
+  delete: use AVL deletion
+  deleteOdd:
+    let arr be an empty dynamic array
+    for each value in the tree,
+      if the value is odd, add it to arr
+    for each value in arr,
+      delete the value from the tree
+
+Less detail for deleteOdd is also acceptable - as long as the code
+first finds all odd elements and then deletes them. A common idea
+was to implement deleteOdd like this:
+  for each value in the tree,
+    if it's odd, delete it
+I didn't accept this because it modifies the tree while traversing it,
+which is difficult to do correctly because the deletion may rebalance
+the tree and the traversal needs to continue afterwards from the
+correct point in the rebalanced tree. (Having said that, Java's
+Iterator provides a remove method for doing just this, which I didn't
+realise at the time...)
+
+For VG:
+
+Represent the set as two AVL trees, one called odds that holds odd
+numbers and one called evens that holds even numbers.
+Implement the operations as follows:
+  new: initialise odds and evens to empty trees
+  insert: if the number is odd, insert it in odds, otherwise insert it in evens (using AVL insertion)
+  member: if the number is odd, check if it's in odds, otherwise check if it's in evens (using BST lookup)
+  delete: if the number is odd, delete it from odds, otherwise delete it from evens (using AVL deletion)
+  deleteOdd: initialise odds to an empty tree
+
+Question 4
+----------
+
+a)
+
+A is wrong - 4 would have ended up at index 4 in the array.
+B is wrong - 18 would have ended up at index 0.
+C is OK.
+D is OK.
+E is wrong - 17 would have ended up at index 6.
+
+b)
+
+Replace 3 with a 'deleted' marker (lazy deletion):
+
+Before:
+
++---+---+---+---+---+---+---+---+---+
+| 9 | 18|   | 12| 3 | 14| 4 | 21|   |
++---+---+---+---+---+---+---+---+---+
+
+After:
+
++---+---+---+---+---+---+---+---+---+
+| 9 | 18|   | 12|XXX| 14| 4 | 21|   |
++---+---+---+---+---+---+---+---+---+
+
+Question 5
+----------
+
+a)
+
+One possible answer:
+
+Node  Distance
+----  --------
+H     0
+E     1
+G     3
+F     6
+B     7
+C     7
+D     9
+A     9
+
+b)
+
+e.g. starting at node D:
+
+add edge AD
+add edge BD
+add edge AC
+add edge CF
+add edge FG
+add edge EG
+add edge EH
+
+Starting from another node, you get the same edges in a different order.
+
+Question 6
+----------
+
+The problem is that in deleteMin, you need to remove the minimum
+element from both minheap and maxheap (likewise for deleteMax).
+The following example goes wrong:
+
+  insert(1); // minheap contains 1, maxheap contains 1
+  deleteMax(); // minheap still contains 1, but maxheap is empty
+  insert(2); // minheap contains 1 and 2, maxheap contains 2
+  findMin(); // returns 1, which should not be in the priority queue!
+
+For VG:
+
+Drawing a few min-max heaps you will see that the least element must
+be the root (like in a min heap), and the greatest element must be one
+of the root's children. A slight complication is that if the heap only
+contains one element, then the root is both the least and the greatest
+element.
+
+So finding the minimum element is as in a min heap: just return the root's value.
+
+To find the maximum element, look at the root, the root's left child
+and the root's right child, and return whichever of the three has the
+greatest value.
+
+(More information: http://en.wikipedia.org/wiki/Min-max_heap)
