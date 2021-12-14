@@ -6,7 +6,7 @@ They were also personalized.
 The given files are representative instances.
 
 * [2020-06](2020-06/exam.pdf) ([solution](2020-06/solution.pdf)). Swedish. [Example instance](2020-06/README.md).
-* [2020-08](2020-08/exam.pdf) ([solution](2020-08/solution.pdf))
+* [2020-08](../DAT038_TDA417/2020-08/exam.pdf) ([solution](../DAT038_TDA417/2020-08/solution.pdf))
 * [2020-10](2020-10/exam.pdf) ([solution](2020-10/solution.pdf)). Swedish. [Example instance](2020-06/README.md).
 * [2021-06](2021-06/exam.pdf) ([solution](2021-06/solution.pdf))
 * [2021-08](../DAT038+TDA417/2021-08/exam.pdf) ([solution](../DAT038+TDA417/2021-08/solution.pdf))
