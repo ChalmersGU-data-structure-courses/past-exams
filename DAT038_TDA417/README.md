@@ -4,7 +4,7 @@ The following were sample exams:
 
 * [2019-12 sample exam 1](2019-12-sample-1/exam.pdf) ([solutions](2019-12-sample-1/solution.pdf))
 * [2019-12 sample exam 2](2019-12-sample-2/exam.pdf) ([solutions](2019-12-sample-2/solution.pdf)).
-  Question 6 is no longer part of course content.
+  Question 6 is no longer part of the course content.
 
 The following exams were given as open-book online exams.
 Their questions thus differ from a typical in-person exam and are a bit harder.
