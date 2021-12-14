@@ -13,7 +13,7 @@ The given files are representative instances.
 
 * [2020-04](2020-04/exam.pdf) ([solutions](2020-04/solution.pdf))
 * [2020-08](2020-08/exam.pdf) ([solutions](2020-08/solution.pdf)). [Example instance](2020-08/README.md).
-* [2021-01](2021-01/exam.pdf) ([solutions](2021-01/solution.pdf))
+* [2021-01](2021-01/exam.pdf) ([solutions](2021-01/solution.pdf)). [Example instance](2021-01/README.md).
 * [2021-04](2021-04/exam.pdf) ([solutions](2021-04/solution.pdf))
 * [2021-08](2021-08/exam.pdf) ([solutions](2021-08/solution.pdf))
 
