@@ -23,6 +23,6 @@ From [DAT038 and TDA417](../DAT038_TDA417):
 
 ## Language
 
-The exams up until [2020-06](2020-06) are in Swedish.
+The exams up until [2020-06](2020-06) and [2020-10](2020-10) are in Swedish.
 
-The exams from [2020-08](2020-08) are in English.
+The exams [2020-08](2020-08) and from 2021 are in English.
