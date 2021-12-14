@@ -1,4 +1,4 @@
-This exam was taken from [here](../DIT181/2021-03).
+This exam was taken from [here](../../DIT181/2021-03).
 Some bug fixes and rephrasings have been applied.
 
 The exam was given as an open-book online exam.
