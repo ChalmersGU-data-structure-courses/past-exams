@@ -5,7 +5,7 @@ Their questions thus differ from a typical in-person exam and are a bit harder.
 They were also personalized.
 The given files are representative instances.
 
-* [2020-06/](2020-06/exam.pdf) ([solution](2020-06/solution.pdf)) (Swedish)
+* [2020-06](2020-06/exam.pdf) ([solution](2020-06/solution.pdf)) (Swedish)
 * [2020-08](2020-08/exam.pdf) ([solution](2020-08/solution.pdf))
 * [2021-06](2021-06/exam.pdf) ([solution](2021-06/solution.pdf))
 * [2021-08](../DAT038+TDA417/2021-08/exam.pdf) ([solution](../DAT038+TDA417/2021-08/solution.pdf))
