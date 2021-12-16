@@ -5,7 +5,7 @@ This repository collects past exams from data structure courses at Chalmers Univ
 ## Repository structure
 
 The exams are sorted by course code.
-Inside each course code, each exam is a folder of format `yyyy-mm` (sample exams use `yyyy-mm-sample-N.`)
+Inside each course code, each exam is a folder of format `yyyy-mm` (sample exams use e.g. `yyyy-mm-sample-N.`)
 If an exam is given in multiple courses, one primary location is selected and the others are symbolic links.
 
 The exam folder contains the exam `exam.pdf`, suggested solutions `solution.pdf`.
