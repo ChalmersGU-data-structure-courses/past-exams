@@ -8,7 +8,7 @@ The exams are sorted by course code.
 In each course code folder, each exam is a folder of format `yyyy-mm` (sample exams use e.g. `yyyy-mm-sample-N.`)
 If an exam is given in multiple courses, one primary location is selected and the others are symbolic links.
 
-The exam folder contains the exam `exam.pdf`, suggested solutions `solution.pdf`.
+The exam folder contains the exam `exam.pdf` and suggested solutions `solution.pdf`.
 It may also contain a file `README.md` that describes peculiarities of the exam such as:
 * if the exam was online (open-book),
 * personalized instances with an example if needed,
