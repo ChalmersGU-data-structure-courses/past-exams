@@ -1,6 +1,6 @@
 ## Similar exam from last study period
 
-The format of our exam will be identical that in LP2 in [DAT038 and TDA417 and DAT515](../DAT038_TDA417_DAT525):
+The format of our exam will be identical to that in [DAT038 and TDA417 and DAT515](../DAT038_TDA417_DAT525) in the previous study period:
 
 * [2022-01](../DAT038_TDA417_DAT525/2022-01/exam.pdf) ([solutions](../DAT038_TDA417_DAT525/2022-01/solution.pdf))
 
