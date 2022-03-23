@@ -1,6 +1,6 @@
 This was the main exam for DIT182.
 
-It was also the re-exam for DAT038 (and DAT037), TDA416 (and TDA417), DAT525, DIT181, and LET375.
+It was also a re-exam for DAT038/7, TDA416/7, DAT525, DIT181, and LET375.
 
 ## Versions
 
