@@ -1,0 +1,8 @@
+This was the main exam for DIT182.
+
+It was also the re-exam for DAT038 (and DAT037), TDA416 (and TDA417), DAT525, DIT181, and LET375.
+
+## Versions
+
+There were two versions of the exam, one for each campus.
+They differ only in the cover sheet and minor edits.

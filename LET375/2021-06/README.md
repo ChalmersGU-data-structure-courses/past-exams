@@ -1,5 +1,0 @@
-This exam was given as an open-book online exam.
-The questions thus differ from a typical in-person exam.
-
-The exam was also personalized.
-The given files are representative instances.
