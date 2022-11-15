@@ -21,3 +21,7 @@ Each folder has a file `README.md` noting:
 
 The folder typically contains the original exam `exam.pdf` and suggested solutions `solution.pdf`.
 If there are several versions (for example, for different course codes), there may be several such files, for example in appropriately named subfolders.
+
+### Pandemic exams
+
+All exams during the Covid-19 pandemic were online and open-book. This meant that the questions were quite different from the "normal" closed-book on-campus exams. Many of the pandemic exams were also individualised, so that every student got a slightly different question. The pandemic exams were from 2020-04-30 until 2021-08-27.
