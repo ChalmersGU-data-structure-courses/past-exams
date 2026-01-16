@@ -13,12 +13,13 @@ Within each course code, they are sorted by date in the format `yyyy-mm`.
 
 Newer exams are sorted by date in the format `yyyy-mm-dd`.
 
-Each folder has a file `README.md` noting:
+Some folders have a file `README.md` noting:
 * what course(s) this was a (re)exam for,
 * if the exam was online (open-book),
 * personalized instances with an example if needed,
 * questions based on outdated course material.
 
+Some folders have some of this information is a separate coversheet `coversheet.pdf`. 
 The folder typically contains the original exam `exam.pdf` and suggested solutions `solution.pdf`.
 If there are several versions (for example, for different course codes), there may be several such files, for example in appropriately named subfolders.
 
